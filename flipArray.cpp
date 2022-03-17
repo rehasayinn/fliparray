@@ -1,5 +1,5 @@
 #include <iostream>
-#include "sayin_oguz_reha_flipLibrary.h"              //This is the library I created, it has the functions "flipAndInvertImage" and "arrayToMatrix"
+#include "flipArrayLibrary.h"              //This is the library I created, it has the functions "flipAndInvertImage" and "arrayToMatrix"
 using namespace std;
 
 int main()
