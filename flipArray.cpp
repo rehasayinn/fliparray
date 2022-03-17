@@ -19,12 +19,3 @@ int main()
 
 	delete[] array;                                   //Deletes array to deallocate space
 }
-
-
-/*
-For this assignment, I created a library that has the required functions. In the library, arrayToMatrix function takes the array and the sizes, and transforms that array
-to a matrix, then returns it. Then, the returned matrix is given to the flipAndInvertImage function in the main function. This function takes the matrix and the sizes,
-and flips the rows of the matrix first. This done by a swap function inside this function. After the flipped matrix is printed out, the flipped matrix gets inverted.
-This is done by checking the value; if the value is 1, then it will be 0, and vice versa. Lastly, after the inverted matrix is printed out, the function deletes the matrix
-to deallocate space in the memory. After the function, the array is deleted for the same reason.
-*/
